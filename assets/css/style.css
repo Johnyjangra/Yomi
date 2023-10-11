@@ -722,6 +722,9 @@
     --fs-10xl: 52px;
     --fs-11xl: 60px;
   }
+  .min_h_100 {
+    min-height: 100vh;
+  }
 }
 @media (min-width: 1400px) {
   .daygrowth_set {
