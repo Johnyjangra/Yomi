@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YOOMI</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="shortcut icon" href="./assets/images/svg/flower1.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class=" overflow-hidden">
+    <section id="preloader"
+        class="min-vh-100 bg-white d-flex flex-column justify-content-center align-items-center position-fixed top-0 w-100 z_1000 ">
+
+        <div class=" w _100"><img class="animintion_preloader w_118" src="./assets/images/png/logo.png" alt="favicon" />
+        </div>
+
+
+    </section>
+    <!-- HERO -->
+    <section class="hero_bg min- vh -100 pb-5">
+        <div class="container ccustom_container">
+            <nav class="position-relative z-3">
+                <section class=" position-sticky top-0">
+                    <div class="container">
+                        <div class="py-3 d-flex justify-content-between align-items-center">
+                            <img class="w_118 cursor_pointr" src="./assets/images/png/logo.png" alt="logo">
+                            <ul class="mb-0 ps-0 d-md-flex gap-3 text-white d-none d-md-block align-items-center">
+                                <li class="befor_line_hover"><a class="ff_inter fs_2xl fw-medium text-black"
+                                        href="">About Us</a></li>
+                                <li class="ms_44 befor_line_hover"><a class="ff_inter fs_2xl fw-medium text-black"
+                                        href="">News</a></li>
+                                <li class="ms_44 befor_line_hover"><a class="ff_inter fs_2xl fw-medium text-black"
+                                        href="">Contact Us</a>
+                                </li>
+                                <button
+                                    class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_13_16 ms-4 btn_hovr transition_02">Get
+                                    Started</button>
+                            </ul>
+                            <button id="openNav" onclick="openNav()" class="menu d-md-none"
+                                type="button">&#9776</button>
+                            <div id="Menu" class="d-md-none navbar1 d-flex justify-content-center align-items-center">
+                                <button class="menu position-absolute closbtn" onclick="closeNav()"
+                                    type="button">&times;</button>
+                                <ul class="mb-0 ps-0 d-flex flex-column gap-3 text-white text-center">
+                                    <li><a class="ff_inter fs_4xl fw-medium text-black" href="">About Us</a></li>
+                                    <li class=""><a class="ff_inter fs_4xl fw-medium text-black" href="">News</a></li>
+                                    <li class=""><a class="ff_inter fs_4xl fw-medium text-black" href="">Contact Us</a>
+                                    </li>
+                                    <li class="text-black"><a class="ff_inter fs_4xl fw-medium text-black" href="#">Get
+                                            Started</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </nav>
+        </div>
+        <section class="pt-md-5 position-relative">
+            <img class="position-absolute headvctr1_set w_130_sm" src="./assets/images/svg/headvector1.svg" alt="">
+            <img class="position-absolute headvctr2_set w_260 w_xs_30" src="./assets/images/svg/headvector2.svg" alt="">
+            <div class="container ccustom_container pt-5">
+                <div class=" max_w_820 text-center mx-auto position-relative z-1">
+                    <h1 class="pt-5 ff_plus fw-normal fs_10xl text-black"> <span class="fw-bold ">Next Generation</span>
+                        Patient Engagement and RTM Solution✨</h1>
+                    <p class="text-black op_07 ff_inter fw-normal fs_5xl text-black">Industry leading AI motion-tracking
+                        technology</p>
+                </div>
+                <div
+                    class=" bg_shadow mx_428 d-flex justify-content-between p-1 mx-auto my-sm-5 my-4 position-relative z-1">
+                    <input class="border-0 ff_inter fs_xl fw-medium text-black op_07 outline_0 w_62 ps-2" type="email"
+                        placeholder="Enter Your Email">
+                    <button
+                        class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_13_16 transition_02 btn_hovr">Get
+                        Started</button>
+                </div>
+                <div class="text-center pt_200 w_512 mx-auto w_400">
+                    <img class="mt-5 w-100" src="./assets/images/svg/shade.svg" alt="shad">
+                </div>
+            </div>
+            <img class="position-absolute flower1_set d-sm-block d-none" src="./assets/images/svg/flower1.svg" alt="">
+            <img class="position-absolute flower2_set d-sm-block d-none" src="./assets/images/svg/flower2.svg" alt="">
+        </section>
+    </section>
+    <!-------------------- CHAT----------------- -->
+    <section>
+        <div class="ccustom_container">
+            <div class="col-lg-12">
+                <div class="position-relative top_m50  top_sm_113 top_md_134 top_xs_85"><img class="w-100 cursor_pointr"
+                        src="./assets/images/png/yomichat.png" alt="yoomi"></div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------FEATURE-------------- -->
+    <section class="mt_sm_m50 mt-md-0 overflow-x-hidden">
+        <div class="ccustom_container container pb-lg-5 ">
+            <p class="ff_inter fs_xl fw-medium clr_blue text-center">FEATURES</p>
+            <h1 class="ff_plus fw-normal fs_9xl text-black text-center">Explore Our <span class="fw-semibold"> Amazing
+                    Features</span></h1>
+            <p class="ff_inter fs_xl fw-normal text-black op_07 mx_724 mx-auto text-center mb-md-3 mb-0">Yoomi is more
+                than just a
+                regular remote monitoring solution. Our product supports patients and providers
+                through every step of the rehabilitation process</p>
+            <!-- --------------------EXTENSIVE -------------------->
+            <div class="  box_shadow py-md-5 py-4 px-sm-4 px-3 px-0 position-relative z-1 overflow-x-hidden">
+                <div class="row flex-lg-row flex-column-reverse pt-4 align-items-center">
+                    <div class="col-lg-6 pt-lg-0 pt-4">
+                        <div class="pe-lg-5">
+                            <p class="ff_inter fs_xl fw-medium clr_blue mb-0">Library</p>
+                            <p class="ff_plus fw-normal fs_8xl text-black pt-2">Extensive Exercise <span
+                                    class="fw-semibold">Library</span> </p>
+                            <div class="d-flex align-items-center ">
+                                <img src="./assets/images/svg/right.svg" alt="right">
+                                <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3">Utilize Yoomi’s HEP
+                                    templates
+                                    to quickly create and assign programs to your patients </p>
+                            </div>
+                            <div class="d-flex align-items-center pt-2">
+                                <img src="./assets/images/svg/right.svg" alt="right">
+                                <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3">Choose from our library
+                                    of
+                                    exercises for all patient cases </p>
+                            </div>
+                            <div class="d-flex align-items-center pt-2 pb-lg-3">
+                                <img src="./assets/images/svg/right.svg" alt="right">
+                                <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3 ">Use Yoomi’s
+                                    industry-leading
+                                    exercise generation tool to create your own exercises that track adherence and form
+                                    in
+                                    seconds </p>
+                            </div>
+                            <button
+                                class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_16_32 mt-4 btn_hovr transition_02">View
+                                the Library</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative">
+                        <div class="green_box_size ">
+                            <img class="position-absolute w-100 green_box_size_set"
+                                src="./assets/images/png/greenbox.png" alt="">
+                        </div>
+                        <div class="slider ">
+                            <div class="px-4"><img class="w-100" src="./assets/images/png/yoga.png" alt="Image 1"></div>
+                            <div class="px-4"><img class="w-100" src="./assets/images/png/yoga.png" alt="Image 1"></div>
+                            <div class="px-4"><img class="w-100" src="./assets/images/png/yoga.png" alt="Image 1"></div>
+                        </div>
+                        <div class="d-flex ps-4 pt-3">
+                            <div
+                                class="round_arrow1 d-flex flex-column align-items-center justify-content-center   nxtparrow cursor_pointr">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.4479 7.03831L8.0625 11.4237L12.4479 15.8091" stroke="black"
+                                        stroke-width="1.75416" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div
+                                class="round_arrow1 d-flex flex-column align-items-center justify-content-center ms-3 prvarrow cursor_pointr">
+                                <svg class="rotate_360 " width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.4479 7.03831L8.0625 11.4237L12.4479 15.8091" stroke="black"
+                                        stroke-width="1.75416" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------CUTTIN ------------->
+            <div class="py-lg-5 position-relative">
+                <img class="position-absolute feature1_set w_300" src="./assets/images/svg/feature1.svg" alt="">
+                <div
+                    class=" box_shadow py-md-5 py-4 px-sm-4 px-3 mt-lg-5 mt-4 align-items-center position-relative z-1">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="">
+                                <div class="position-relative">
+                                    <img class="position-absolute graph_set" src="./assets/images/svg/graph.svg"
+                                        alt="graph">
+                                    <img class="w-100" src="./assets/images/png/layyogA.png" alt="Image 1">
+                                    <img class="position-absolute legup_set d-lg-block d-none"
+                                        src="./assets/images/png/legup.png" alt="legup">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ps-lg-5">
+                            <div class="pt-lg-0 pt-4">
+                                <p class="ff_inter fs_xl fw-medium clr_blue mb-0">TRACKING</p>
+                                <p class="ff_plus fw-normal fs_8xl text-black pt-2">Cutting Edge Motion <span
+                                        class="fw-semibold">Tracking/Feedback </span> </p>
+                                <div class="d-flex align-items-center ">
+                                    <img src="./assets/images/svg/right.svg" alt="right">
+                                    <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3">Provides a holistic,
+                                        real-time analysis of patient exercise form, capturing 300+ data points and
+                                        critical
+                                        metrics.</p>
+                                </div>
+                                <div class="d-flex align-items-center pt-2">
+                                    <img src="./assets/images/svg/right.svg" alt="right">
+                                    <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3">Delivers immediate
+                                        feedback and guidance to correct and improve exercise form</p>
+                                </div>
+                                <div class="d-flex align-items-center pt-2 pb-2">
+                                    <img src="./assets/images/svg/right.svg" alt="right">
+                                    <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3 ">Supported by the
+                                        most
+                                        accurate motion-tracking model designed for rehabilitation, Yoomi Vision </p>
+                                </div>
+                                <div class="d-flex align-items-center pt-2 pb-3">
+                                    <img src="./assets/images/svg/right.svg" alt="right">
+                                    <p class="mb-0 ff_inter fs_xl fw-normal text-black op_07 ps-3 ">Requires no custom
+                                        hardware, sensors, or equipment </p>
+                                </div>
+                                <button
+                                    class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_16_32 mt-lg-4 mt-3 transition_02 btn_hovr">View
+                                    the Library</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- --------------------REPORT---------------- -->
+            <div class="position-relative ">
+                <img class="position-absolute feature2_set w_300" src="./assets/images/svg/feature1.svg" alt="">
+                <div class="  box_shadow py-md-5 py-4 px-sm-4 px-3 mt-lg-5 mt-4 position-relative z-1">
+                    <div class="row flex-lg-row flex-column-reverse align-items-center">
+                        <div class="col-lg-6 ">
+                            <div class="pe-lg-5 pt-lg-0 pt-4">
+                                <p class="ff_inter fs_xl fw-medium clr_blue mb-0">Library</p>
+                                <p class=" ff_plus fs_8xl fw-normal text-black">Reporting + <span
+                                        class="fw-semibold">Analytics</span> </p>
+                                <p class="ff_inter fs_xl fw-normal text-black op_07">Track patient progress over time
+                                    with
+                                    compliance, pain, RPE, ROM and other key metrics</p>
+                                <button
+                                    class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_16_32 mt-lg-4 mt-3 transition_02 btn_hovr">View
+                                    the Library</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt-lg-0 pt-lg-5">
+                            <div class="pt-lg-0 pt-4">
+                                <div class="position-relative">
+                                    <img class="w_282 range_set position-absolute" src="./assets/images/svg/range.svg"
+                                        alt="range">
+                                    <img class="w-100" src="./assets/images/png/list.png" alt="list">
+                                    <img class="w_200 position-absolute daygrowth_set"
+                                        src="./assets/images/svg/daysgrowth.svg" alt="daysgrowth">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------- REMOTE--------------- -->
+            <section class="position-relative">
+                <img class="position-absolute feature3_set w_300" src="./assets/images/svg/feature1.svg" alt="">
+                <div class="py-lg-5 py-0 ">
+                    <div
+                        class=" box_shadow py-md-5 py-4 px-sm-4 px-3 mt-lg-5 mt-4 align-items-center position-relative z-1">
+                        <div class="row pt-lg-5 pt-4 ">
+                            <div class="col-lg-6">
+                                <div class="">
+                                    <div class="position-relative">
+                                        <img class="w-100" src="./assets/images/png/jhondoe.png" alt="johnhdoe">
+                                        <img class="position-absolute duration_set w_190 w_150 w_100"
+                                            src="./assets/images/svg/duration.svg" alt="duration">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-lg-3">
+                                <div class="">
+                                    <p class="ff_inter fs_xl fw-medium clr_blue mb-0">TRACKING</p>
+                                    <h1 class=" ff_plus fs_8xl fw-normal text-black">
+                                        Remote Therapeutic
+                                        <span class="fw-semibold">Monitoring + Billing</span>
+                                    </h1>
+                                    <p class="ff_inter fs_xl fw-normal text-black op_07">
+                                        Enhance patient care with remote monitoring, and enable providers to generate
+                                        over $160
+                                        per patient per month in additional revenue
+                                    </p>
+                                    <button
+                                        class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_16_32 mt-4 transition_02 btn_hovr">View
+                                        the Library</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!----------------------- PLATFORM-------------- -->
+        <section class="bg_grayrbg pt-5 mt-5 position-relative">
+            <img class="position-absolute platform1_ste" src="./assets/images/png/platform1.png" alt="platform1">
+            <img class="position-absolute platform2_ste" src="./assets/images/png/platform2.png" alt="platform2">
+            <div class="container ccustom_container mt-lg-5">
+                <p class="ff_inter fs_xl fw-semibold clr_blue text-center mb-0 position-relative z-1 ">PLATFORM</p>
+                <h1 class=" ff_plus fw-normal fs_9xl text-black text-center pt-2 position-relative z-1">Through <span
+                        class="fw-semibold">Our
+                        Platform</span> </h1>
+                <p class="ff_inter fs_xl fw-normal text-black op_07 text-center mb-0 ">We’ve helped out partners and
+                    patients
+                    achieve</p>
+                <div class="w_861 mx-auto pt-lg-5 pt-4">
+                    <div class="row justify-content-md-start justify-content-center">
+                        <div class="col-md-4 col-sm-6 col-11">
+                            <div
+                                class="bg_lghtgreen text-center py_41 h-100 px-4 position-relative scal_hover transition_02">
+                                <img class="w_120 position-absolute set_vector" src="./assets/images/png/boxvector.svg"
+                                    alt="vector">
+                                <h1 class=" ff_inter fs_11xl fw-semibold text-white ">50%</h1>
+                                <p class=" ff_inter fs_3xl fw-normal text-white op_07 mb-0 px-5">Reduction in Pain</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-11 pt-sm-0 pt-4">
+                            <div
+                                class="bg_lghtblue text-center py_41 h-100 position-relative px-3 scal_hover transition_02">
+                                <img class="w_120 position-absolute set_vector" src="./assets/images/png/boxvector.svg"
+                                    alt="vector">
+                                <h1 class=" ff_inter fs_11xl fw-semibold text-white ">90%</h1>
+                                <p class=" ff_inter fs_3xl fw-normal text-white op_07 mb-0">Increase In-Patient
+                                    Satisfaction</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-11 pt-md-0 pt-4">
+                            <div class="bg_deepblu text-center py_41 h-100 position-relative scal_hover transition_02">
+                                <img class="w_120 position-absolute set_vector" src="./assets/images/png/boxvector.svg"
+                                    alt="vector">
+                                <h1 class=" ff_inter fs_11xl fw-semibold text-white ">60%</h1>
+                                <p class=" ff_inter fs_3xl fw-normal text-white op_07 mb-0">Faster Recovery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------- CALCULATE---------- -->
+                <div class="pt-5 mt-5 pb-4 position-relative z-1">
+                    <p class="ff_inter fs_xl fw-semibold clr_blue text-center mb-0 text-uppercase pt-lg-4">Forecast your
+                        profits</p>
+                    <h1 class=" ff_plus fw-normal fs_9xl text-black text-center pt-2 mx_592 mx-auto">Calculate Your
+                        <span class="fw-semibold">Reimbursement With Yoomi</span>
+                    </h1>
+                    <div class="row justify-content-between py-lg-5 py-4">
+                        <div class="col-lg-3">
+                            <div class="bg_deepblu text-center py-3 h-100">
+                                <p class=" ff_inter fs_xl fw-semibold text-white ">Total Patients per month </p>
+                                <div class="text-center mb-4">
+                                    <img class="cursor_pointr" src="./assets/images/svg/volume.svg" alt="volume">
+                                </div>
+                                <p
+                                    class="ff_inter fs_6xl fw-semibold clr_blue bg-white mx-5 text-center mb-0 rdc_4 pt-2">
+                                    100</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 pt-lg-0 pt-4">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="bg_rbg_gray d-flex p-2 align-items-center justify-content-between">
+                                        <p class="mb-0 ff_inter fs_xl fw-semibold text-black ps-3">Initial Setup</p>
+                                        <button
+                                            class="ff_inter fs_6xl fw-semibold text-white bg_deepblu deepblue_border p_16_21">$
+                                            40.26</button>
+                                    </div>
+                                    <div class="bg_rbg_gray d-flex p-2 align-items-center justify-content-between mt-4">
+                                        <p class="mb-0 ff_inter fs_xl fw-semibold text-black ps-3 ">Patient<br />
+                                            Monitoring
+                                        </p>
+                                        <button
+                                            class="ff_inter fs_6xl fw-semibold text-white bg_deepblu deepblue_border p_16_21">$
+                                            40.26</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pt-md-0 pt-4">
+                                    <div class="bg_rbg_gray d-flex p-2 align-items-center justify-content-between">
+                                        <p class="mb-0 ff_inter fs_xl fw-semibold text-black ps-3">First <br>
+                                            20 Minutes</p>
+                                        <button
+                                            class="ff_inter fs_6xl fw-semibold text-white bg_deepblu deepblue_border p_16_21">$
+                                            40.26</button>
+                                    </div>
+                                    <div class="bg_rbg_gray d-flex p-2 align-items-center justify-content-between mt-4">
+                                        <p class="mb-0 ff_inter fs_xl fw-semibold text-black ps-3 ">Patient<br />
+                                            Monitoring
+                                        </p>
+                                        <button
+                                            class="ff_inter fs_6xl fw-semibold text-white bg_deepblu deepblue_border p_16_21">$
+                                            40.26</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pt-4">
+                            <div class="bg_rbg_gray d-flex p-2 align-items-center justify-content-between">
+                                <p class="mb-0 ff_inter fs_xl fw-semibold text-black ps-3">Potential Reimbursement</p>
+                                <button
+                                    class="ff_inter fs_6xl fw-semibold text-white bg_deepblu deepblue_border p_16_21">
+                                    $12000</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --------------PARTNER------------------- -->
+        <section class="py-lg-5 ">
+            <div class="container ccustom_container py-5">
+                <p class="ff_inter fs_xl fw-semibold clr_blue text-center mb-0 text-uppercase pt-lg-4">Partners</p>
+                <h1 class=" ff_plus fw-normal fs_9xl text-black text-center pt-2 mx_684 mx-auto">Recognized by Leading
+                    <span class="fw-semibold">Healthcare Institutions</span>
+                </h1>
+                <div class="healthslide pt-lg-5 pt-4">
+                    <div><img class="w-100 scal_hover transition_02 cursor_pointr"
+                            src="./assets/images/png/healthlogo1.png" alt="Image 1"></div>
+                    <div><img class="w-100 scal_hover transition_02 cursor_pointr"
+                            src="./assets/images/png/healthlogo2.png" alt="Image 2"></div>
+                    <div><img class="w-100 scal_hover transition_02 cursor_pointr"
+                            src="./assets/images/png/healthlogo3.png" alt="Image 3"></div>
+                    <div><img class="w-100 scal_hover transition_02 cursor_pointr"
+                            src="./assets/images/png/healthlogo4.png" alt="Image 4"></div>
+                    <div><img class="w-100 scal_hover transition_02 cursor_pointr"
+                            src="./assets/images/png/healthlogo5.png" alt="Image 5"></div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------KNOW MORE------------------ -->
+        <section>
+            <div class="container ccustom_container">
+                <p class="ff_inter fs_xl fw-semibold clr_blue text-center mb-0 text-uppercase pt-4">Know More</p>
+                <h1 class=" ff_plus fw-normal fs_9xl text-black text-center pt-2 mx_684 mx-auto">RAnd Used by the
+                    Biggest
+                    <span class="fw-semibold">Figures in Sports and Rehab</span>
+                </h1>
+                <div class="tab-content text-center pt-lg-5 pt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <img class="w-100 show_img_size" src="./assets/images/png/show1.png" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><img
+                            class="w-100 show_img_size" src="./assets/images/png/show2.png" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><img
+                            class="w-100 show_img_size" src="./assets/images/png/show3.png" alt=""></div>
+                    <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab"><img
+                            class="w-100 show_img_size" src="./assets/images/png/show2.png" alt=""></div>
+                </div>
+                <nav class="pt-lg-5 pt-4">
+                    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                        <button class="nav-link  act ive mx_152 mx_xs_115" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true"><img class="w-100" src="./assets/images/png/show1.png" alt=""></button>
+                        <button class="nav-link  mx_152 mx_xs_115" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false"><img class="w-100" src="./assets/images/png/show2.png"
+                                alt=""></button>
+                        <button class="nav-link  mx_152 mx_xs_115" id="nav-contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                            aria-selected="false"><img class="w-100" src="./assets/images/png/show3.png"
+                                alt=""></button>
+                        <button class="nav-link  mx_152 mx_xs_115" id="nav-four-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four"
+                            aria-selected="false"><img class="w-100" src="./assets/images/png/show2.png"
+                                alt=""></button>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </section>
+    <!---------------------- INDUSTRY --------------------->
+    <section class="py-lg-5">
+        <div class="container ccustom_container py-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 text-lg-start text-center">
+                    <p class="ff_inter fs_xl fw-semibold clr_blue  mb-0 text-uppercase pt-lg-4">The Best for you</p>
+                    <h6 class="ff_plus fs_9xl fw-normal ">Committed to
+                        Industry-Standard <span class="fw-semibold">Compliance and Safety</span></h6>
+                    <p class="ff_inter fs_xl fw-normal opacity-75 mb-lg-0 ">Yoomi has signed the American Physical
+                        Therapy
+                        Association Digital Transparency pledge,
+                        illustrating our commitment to the fact that digital "physical therapy" services are only
+                        performed or directed by licensed physical therapists in accordance with all regulations and
+                        APTA’s Standards of Practice for Physical Therapy.</p>
+                </div>
+                <div class="col-xl-5 col-lg-6 d-lg-block d-none ">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <div class="shadow_box  p-5 d-inline-block scal_hover transition_02">
+                                <img src="./assets/images/svg/hipa.svg" alt="">
+                            </div>
+                            <div class="shadow_box mt-4 d-inline-block py-5 px-3 scal_hover transition_02">
+                                <img class="ms-1 mt-3" src="./assets/images/svg/fda.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="ms-xl-0 ms-lg-3">
+                            <div class="shadow_box padding36 d-inline-block scal_hover transition_02 p_36_13">
+                                <img src="./assets/images/svg/apta.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 d-lg-none d-block pt-4">
+                    <div class="row justify-content-md-start justify-content-center">
+                        <div class="col-md-4 col-sm-6 col-10 mx-sm-0 mx-auto">
+                            <div
+                                class="shadow_box w_xs_100 px-md-5 py-5 d-inlin e-block h-100 text-md-start text-center">
+                                <img src="./assets/images/svg/hipa.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-10 mx-sm-0 mx-auto pt-sm-0 pt-4">
+                            <div
+                                class="shadow_box  d-inlin e-block w_xs_100 px-md-5 py-5 h-100 text-md-start text-center">
+                                <img class="w_137 w_lg_170 mt-3" src="./assets/images/svg/fda.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mt-md-0 mt-md-0 mt-4 col-10 mx-sm-0 mx-auto">
+                            <div
+                                class="shadow_box padding36 d-inli ne-block w_xs_100 px-md-5 py-md-5 py-4 h-100 text-md-start text-center">
+                                <img class="my-3 my-md-0 w_137 w_lg_170" src="./assets/images/svg/apta.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------- CLINT VIEW -------------------->
+    <section class="pb-lg-5 position-relative">
+        <div class="w_300"><img class="position-absolute w- 100" src="./assets/images/png/slidevector.png" alt="vector">
+        </div>
+        <div class="container ccustom_container">
+            <p class="ff_inter fs_xl fw-semibold clr_blue text-center  mb-0 text-uppercase pt-4">CLIENT review</p>
+            <h6 class="ff_plus fs_9xl fw-normal text-center mb-0">What are Client Think <span class="fw-semibold">About
+                    Us</span></h6>
+            <div class="clint_slider pt-lg-5 pb-lg-4 py-4">
+                <div class="px-4 px-2 py-3">
+                    <div class="ms_823 mx-auto white_bg text-center py-sm-5 py-4 mx-4 px-sm-4 px-3">
+                        <div class="pt-4 text-center"><img src="./assets/images/svg/roundman.svg" alt="roundman">
+                        </div>
+                        <p class="ff_inter fs_3xl fw-medium text-black pt-2 mb-0">Joy Robert <span class="fs_lg ">(
+                                USA
+                                )</span> </p>
+                        <p class="ff_inter fs_lg fw-medium clr_lightgren mb-0">CEO ( yoomi )</p>
+                        <div class="position-relative">
+                            <img class="position-absolute color1_set" src="./assets/images/svg/colon1.svg" alt="">
+                            <img class="position-absolute color2_set" src="./assets/images/svg/colon2.svg" alt="">
+                            <p class="ff_inter fs_xl fw-normal text-black op_07 mx_504 mx-auto pt-2">I'm a
+                                paragraph.
+                                Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                                click
+                                me
+                                to add your own content and make changes to the font.</p>
+                        </div>
+                        <div class="pb-2"><img src="./assets/images/svg/start5.svg" alt="star"></div>
+                    </div>
+                </div>
+                <div class="px-4 py-3">
+                    <div class="ms_823 mx-auto white_bg text-center py-sm-5 py-4 mx-4 px-4 px-3">
+                        <div class="pt-4 text-center"><img src="./assets/images/svg/roundman.svg" alt="roundman">
+                        </div>
+                        <p class="ff_inter fs_3xl fw-medium text-black pt-2 mb-0">Joy Robert <span class="fs_lg ">(
+                                USA
+                                )</span> </p>
+                        <p class="ff_inter fs_lg fw-medium clr_lightgren mb-0">CEO ( yoomi )</p>
+                        <div class="position-relative">
+                            <img class="position-absolute color1_set" src="./assets/images/svg/colon1.svg" alt="">
+                            <img class="position-absolute color2_set" src="./assets/images/svg/colon2.svg" alt="">
+                            <p class="ff_inter fs_xl fw-normal text-black op_07 mx_504 mx-auto pt-2">I'm a
+                                paragraph.
+                                Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                                click
+                                me
+                                to add your own content and make changes to the font.</p>
+                        </div>
+                        <div class="pb-2"><img src="./assets/images/svg/start5.svg" alt="star"></div>
+                    </div>
+                </div>
+                <div class="px-4 py-3">
+                    <div class="ms_823 mx-auto white_bg text-center py-sm-5 py-4 mx-4 px-sm-4 px-3">
+                        <div class="pt-4 text-center"><img src="./assets/images/svg/roundman.svg" alt="roundman">
+                        </div>
+                        <p class="ff_inter fs_3xl fw-medium text-black pt-2 mb-0">Joy Robert <span class="fs_lg ">(
+                                USA
+                                )</span> </p>
+                        <p class="ff_inter fs_lg fw-medium clr_lightgren mb-0">CEO ( yoomi )</p>
+                        <div class="position-relative">
+                            <img class="position-absolute color1_set" src="./assets/images/svg/colon1.svg" alt="">
+                            <img class="position-absolute color2_set" src="./assets/images/svg/colon2.svg" alt="">
+                            <p class="ff_inter fs_xl fw-normal text-black op_07 mx_504 mx-auto pt-2">I'm a
+                                paragraph.
+                                Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                                click
+                                me
+                                to add your own content and make changes to the font.</p>
+                        </div>
+                        <div class="pb-2"><img src="./assets/images/svg/start5.svg" alt="star"></div>
+                    </div>
+                </div>
+                <div class="px-4 py-3">
+                    <div class="ms_823 mx-auto white_bg text-center py-sm-5 py-4 mx-4 px-sm-4 px-3">
+                        <div class="pt-4 text-center"><img src="./assets/images/svg/roundman.svg" alt="roundman">
+                        </div>
+                        <p class="ff_inter fs_3xl fw-medium text-black pt-2 mb-0">Joy Robert <span class="fs_lg ">(
+                                USA
+                                )</span> </p>
+                        <p class="ff_inter fs_lg fw-medium clr_lightgren mb-0">CEO ( yoomi )</p>
+                        <div class="position-relative">
+                            <img class="position-absolute color1_set" src="./assets/images/svg/colon1.svg" alt="">
+                            <img class="position-absolute color2_set" src="./assets/images/svg/colon2.svg" alt="">
+                            <p class="ff_inter fs_xl fw-normal text-black op_07 mx_504 mx-auto pt-2">I'm a
+                                paragraph.
+                                Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                                click
+                                me
+                                to add your own content and make changes to the font.</p>
+                        </div>
+                        <div class="pb-2"><img src="./assets/images/svg/start5.svg" alt="star"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div
+                    class="round_arrow1 d-flex flex-column align-items-center justify-content-center prev  cursor_pointr">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.4479 7.03831L8.0625 11.4237L12.4479 15.8091" stroke="black" stroke-width="1.75416"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div
+                    class="round_arrow1 d-flex flex-column align-items-center justify-content-center ms-3 next cursor_pointr">
+                    <svg class="rotate_360 " width="22" height="22" viewBox="0 0 22 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.4479 7.03831L8.0625 11.4237L12.4479 15.8091" stroke="black" stroke-width="1.75416"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------ NEWSLETTER--------------- -->
+    <section class="bg_liner_bw mt-5">
+        <div class="container ccustom_container">
+            <div class="deeblue_bg px-lg-5 px-sm-4 px-2 py-4">
+                <div
+                    class="row justify-content-between align-items-center ps-lg-4 pe-lg-5 pe -4 position-relative flex-lg-row flex-column-reverse">
+                    <img class="w_230 w_xs_170 position-absolute newsvecroe_set"
+                        src="./assets/images/png/newsvector.png" alt="">
+                    <div class="col-lg-6">
+                        <div class="pt-lg-0 pt-4">
+                            <div class="w_228 w_xs_140 mx-lg-0 mx-auto"><img class="w-100"
+                                    src="./assets/images/png/footlogo.png" alt="footlogo"></div>
+                            <p class=" ff_plus fs_7xl fw-normal text-white pt-4 text-lg-start text-center">Sign Up
+                                to Join <span>Our
+                                    Newsletter</span>
+                            </p>
+                            <div
+                                class=" bg_shadow mx_428 d-flex justify-content-between p-1 mx-a uto mt-lg-5 mt-4  mx-lg-0 mx-auto flex-sm-row flex-column position-relative z-1">
+                                <input
+                                    class="border-0 ff_inter fs_xl fw-medium text-black op_07 outline_0 w_62 w_xs_90 ps-2 py-sm-0 py-3"
+                                    type="email" placeholder="Enter Your Email">
+                                <button
+                                    class="ff_inter fs_xl fw-semibold text-white bg_blue rgb_shadow blue_bordr p_13_16">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-7 col-7">
+                        <img class="w-100" src="./assets/images/png/man.png " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------ FOOTER--------------- -->
+    <section class="bg-black pt-lg-5">
+        <div class="container ccustom_container">
+            <div class="row justify-content-between py-5">
+                <div class="col-lg-6">
+                    <div class="">
+                        <div class="w_192 pb-2"> <img class="w-100" src="./assets/images/png/footlogo.png"
+                                alt="footlogo"></div>
+
+                        <p class="ff_inter fs_lg fw-light text-white mx_277 pt-4 mx_xsm_400 mb-lg-3 mb-0">I'm a
+                            paragraph. Click here to add
+                            your own text and edit me. It’s easy. Just click “Edit
+                            Text” </p>
+                        <div class="d-flex pt-4">
+                            <img src="./assets/images/svg/mail.svg" alt="mail">
+                            <p class="ff_inter fs_xl fw-light text-white mb-0 ps-3">contact@yoomi.com</p>
+                        </div>
+                        <div class="d-flex pt-3">
+                            <img src="./assets/images/svg/call.svg" alt="mail">
+                            <p class="ff_inter fs_xl fw-light text-white mb-0 ps-3">+123 456 789</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="row pt-lg-0 pt-4">
+                        <div class="col-sm-4 col-6">
+                            <p class="ff_inter fs_lg fw-semibold text-white ">About Us</p>
+                            <ul class="ps-0 mb-0 ">
+                                <li class=""><a class="ff_inter fs_lg fw-normal text-white" href="#">Meet The
+                                        Team</a></li>
+                                <li class="pt-3"><a class="ff_inter fs_lg fw-normal text-white " href="#">Our
+                                        Mission</a></li>
+                                <li class="pt-3"><a class="ff_inter fs_lg fw-normal text-white " href="#">Our
+                                        Mission</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6">
+                            <p class="ff_inter fs_lg fw-semibold text-white ">Contact Us</p>
+                            <ul class="ps-0 mb-0">
+                                <li class=""><a class="ff_inter fs_lg fw-normal text-white " href="#">Twitter</a>
+                                </li>
+                                <li class="pt-3"><a class="ff_inter fs_lg fw-normal text-white " href="#">Instagram</a>
+                                </li>
+                                <li class="pt-3"><a class="ff_inter fs_lg fw-normal text-white " href="#">Linkdin</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6 pt-sm-0 pt-4">
+                            <p class="ff_inter fs_lg fw-semibold text-white">News</p>
+                            <ul class="ps-0 mb-0">
+                                <li class=""><a class="ff_inter fs_lg fw-normal text-white " href="#">Recent</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot_line"></div>
+        <div class="container ccustom_container">
+            <div class=" text-end py-4">
+                <a class=" ff_inter fs_lg fw-normal text-white opacity-25" href="#">Terms of Service</a>
+                <a class=" ff_inter fs_lg fw-normal text-white opacity-25 ms-4" href="#">Privacy Policy</a>
+                <a class=" ff_inter fs_lg fw-normal text-white opacity-25 ms-4" href="#">Cookies</a>
+            </div>
+        </div>
+    </section>
+    </section>
+    <!-- --------------------SCRIPT JS-------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        function openNav() {
+            document.getElementById("Menu").style.left = "0%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+        }
+        function closeNav() {
+            document.getElementById("Menu").style.left = "-100%";
+            document.getElementsByTagName("body")[0].style.overflow = "scroll";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>$('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            arrows: true,
+            slidesToShow: 1.1,
+            slidesToScroll: 1,
+            prevArrow: (".nxtparrow"),
+            nextArrow: (".prvarrow"),
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1.1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1.1,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });</script>
+    <script>$('.healthslide').slick({
+            arrows: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        infinite: true,
+                        autoplaySpeed: 2000,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        infinite: true,
+                        slidesToScroll: 1,
+                        autoplaySpeed: 2000,
+                        autoplay: true,
+                    }
+                }
+            ]
+        });</script>
+    <script>$('.clint_slider').slick({
+            arrows: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            prevArrow: (".prev"),
+            nextArrow: (".next"),
+            // autoplaySpeed: 2000,
+            // autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        // autoplay: true,
+                        infinite: true,
+                        // autoplaySpeed: 2000,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        infinite: true,
+                        slidesToScroll: 1,
+                        // autoplaySpeed: 2000,
+                        // autoplay: true,
+                    }
+                }
+            ]
+        });</script>
+    <script> $('.slider_for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider_nav'
+        });</script>
+    <script> $('.slider_nav').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            asNavFor: '.slider_for',
+            dots: false,
+            centerMode: true,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3.3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        infinite: true,
+                        // arrows: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2.5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        infinite: true,
+                        // arrows: false,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                    }
+                }
+            ]
+        });</script>
+    <script>
+        const preloader = document.getElementById("preloader");
+        setTimeout(() => {
+            preloader.classList.add("d-none");
+            // preloader.classList.add("pointer_event_none");
+            document.body.classList.remove("overflow-hidden");
+        }, 4000);</script>
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
